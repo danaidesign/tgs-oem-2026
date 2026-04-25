@@ -1,0 +1,1279 @@
+{
+  "nav": {
+    "gettingStarted": "Getting Started",
+    "scheduleVenue": "Schedule & Venue",
+    "boothSetup": "Booth Setup",
+    "logistics": "Logistics & Freight",
+    "adminForms": "Admin & Forms",
+    "deadlines": "Deadlines",
+    "language": "EN"
+  },
+  "navItems": {
+    "generalInfo": "General Information",
+    "generalInfoTh": "ข้อมูลทั่วไป",
+    "rules": "Rules & Regulations",
+    "rulesTh": "กฎระเบียบและข้อบังคับ",
+    "contacts": "List of Contacts",
+    "contactsTh": "ข้อมูลผู้ติดต่อ",
+    "exhibitionSchedule": "Exhibition Schedule",
+    "exhibitionScheduleTh": "กำหนดการ",
+    "soundSchedule": "Sound Schedule",
+    "soundScheduleTh": "กำหนดการเสียง",
+    "venueInfo": "Venue Information",
+    "venueInfoTh": "ข้อมูลสถานที่จัดงาน",
+    "travel": "Travel & Accommodation",
+    "travelTh": "การเดินทางและที่พัก",
+    "rawSpace": "Raw Space Booth",
+    "rawSpaceTh": "บูธพื้นที่เปล่า",
+    "shellScheme": "Shell Scheme Booth",
+    "shellSchemeTh": "คูหามาตรฐาน",
+    "freight": "Freight & Exhibits",
+    "freightTh": "การขนส่งและการจัดแสดง",
+    "visa": "Visa Application",
+    "visaTh": "การขอวีซ่า",
+    "billing": "Billing Setup",
+    "billingTh": "รายละเอียดการออกใบแจ้งหนี้"
+  },
+  "hero": {
+    "welcomeBack": "Welcome back",
+    "portal": "Exhibitor Portal",
+    "event": "GCAxTGS 2026",
+    "description": "Your official information hub for exhibiting at GCAxTGS 2026. All schedules, rules, booth specs, and contacts — in one place.",
+    "descriptionTh": "ศูนย์รวมข้อมูลสำคัญสำหรับผู้จัดแสดงงาน GCAxTGS 2026",
+    "viewSchedule": "View Schedule",
+    "actionRequired": "Action Required",
+    "boothCard": {
+      "yourBooth": "Your Booth",
+      "area": "Area",
+      "hall": "Hall",
+      "badgeQuota": "Badge quota",
+      "exhibitorType": "Exhibitor type",
+      "boothConfirmed": "Booth confirmed"
+    }
+  },
+  "countdown": {
+    "daysToShow": "days to show",
+    "opens": "opens",
+    "showDays": "show days",
+    "dailyOpen": "daily open",
+    "sqmBooth": "sqm booth"
+  },
+  "alerts": {
+    "title": "Pending Deadlines",
+    "eyebrow": "Action Required",
+    "urgent": "Urgent",
+    "upcoming": "Upcoming",
+    "completed": "Completed",
+    "inDays": "in {days} days",
+    "overdue": "overdue"
+  },
+  "infoGrid": {
+    "eyebrow": "Exhibitor Information",
+    "title": "Everything you need",
+    "subtitle": "All essential information for your participation at QSNCC, Hall 2–4.",
+    "subtitleTh": "ข้อมูลสำคัญทุกอย่างสำหรับการเข้าร่วมแสดงสินค้าที่ QSNCC",
+    "viewPage": "View page →",
+    "cards": {
+      "generalInfo": {
+        "desc": "Event overview, dates, venue details, organiser contacts, and downloadable exhibitor manual."
+      },
+      "schedule": {
+        "desc": "Setup, show day hours, non-sound periods, closing ceremony, and teardown schedule."
+      },
+      "venue": {
+        "desc": "QSNCC hall specifications, loading zones, parking, elevator capacity, and floor plans."
+      },
+      "rules": {
+        "desc": "Booth height limits, sound control policy, safety requirements, and contractor guidelines."
+      },
+      "rawSpace": {
+        "desc": "Construction limits, engineer certification requirements, electrical, and utility order forms."
+      },
+      "shellScheme": {
+        "desc": "Fascia name, furniture, graphics printing, electricity, and included booth specifications."
+      },
+      "freight": {
+        "desc": "Loading dock access, vehicle limits, move-in timelines, and freight service order forms."
+      },
+      "travel": {
+        "desc": "Recommended hotels, transportation from airport, and hotel reservation links."
+      },
+      "visa": {
+        "desc": "Invitation letter requests and supporting documentation for international exhibitors."
+      }
+    }
+  },
+  "schedule": {
+    "eyebrow": "Event Timeline",
+    "title": "Exhibition Schedule",
+    "subtitle": "October 17–19, 2026 at Queen Sirikit National Convention Center",
+    "subtitleTh": "ศูนย์การประชุมแห่งชาติสิริกิติ์ ห้อง Hall 2–4 ชั้น G",
+    "notice": {
+      "label": "Important Notice",
+      "title": "Non-Sound Period",
+      "desc": "On October 17 only, all exhibitors must turn off sound from 11:00 to 12:30. This coincides with the opening ceremony.",
+      "date": "October 17 (Opening day only)",
+      "duration": "11:00 – 12:30 hrs",
+      "lighting": "Ceiling lights off 100%",
+      "overtime": "5,000 THB / Booth / Hour"
+    },
+    "items": {
+      "setup": {
+        "date": "Oct 15–16",
+        "day": "Wednesday–Thursday",
+        "title": "Build-up & Setup Period",
+        "detail": "08:00–24:00 both days · Booth construction and installation · 18 loading lanes for 6-wheel vehicles · Do NOT move exhibits on Oct 15 — allowed Oct 16 only"
+      },
+      "day1": {
+        "date": "Oct 17",
+        "day": "Friday",
+        "title": "Show Day 1 — Opening",
+        "detail": "Fast lane (Exhibitor): 09:45 · Public: 10:00–19:30 · Non-sound period: 11:00–12:30 · Ceiling lighting off 100% during this window"
+      },
+      "day2": {
+        "date": "Oct 18",
+        "day": "Saturday",
+        "title": "Show Day 2",
+        "detail": "Fast lane: 09:45 · Public: 10:00–19:30"
+      },
+      "day3": {
+        "date": "Oct 19",
+        "day": "Sunday",
+        "title": "Show Day 3 — Closing & Teardown",
+        "detail": "Show: 10:00–19:30 · Closing ceremony: 18:00–19:00 · Hall closes: 19:00 · All teardown starts: 20:00–24:00"
+      }
+    },
+    "tags": {
+      "setup": "Build-up",
+      "show": "Show day",
+      "teardown": "Teardown"
+    }
+  },
+  "quickAccess": {
+    "eyebrow": "Quick access",
+    "title": "Jump to what you need"
+  },
+  "contacts": {
+    "eyebrow": "Key Contacts",
+    "title": "Who to call",
+    "subtitle": "ผู้ที่ควรติดต่อสำหรับการดำเนินงานต่างๆ",
+    "emergency": {
+      "label": "On-site Emergency",
+      "title": "QSNCC Emergency Services",
+      "desc": "Available during setup and all show days",
+      "security": "Security",
+      "medical": "Medical"
+    },
+    "copy": "Copy",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "footer": {
+    "name": "GCAxTGS 2026 Exhibitor Portal",
+    "sub": "Koelnmesse × True Digital × Blackdog Organizer",
+    "rights": "© 2026 GCAxTGS. All rights reserved.",
+    "links": {
+      "generalInfo": "General Info",
+      "schedule": "Schedule",
+      "contacts": "Contacts",
+      "venue": "Venue",
+      "rules": "Rules"
+    }
+  },
+  "generalInfo": {
+    "breadcrumb": "Getting Started",
+    "title": "General Information",
+    "titleTh": "ข้อมูลทั่วไป",
+    "subtitle": "Everything you need to know before the show",
+    "onThisPage": "On this page",
+    "sections": {
+      "overview": "Event Overview",
+      "keyDates": "Key Dates",
+      "venue": "Venue",
+      "organizers": "Organizers",
+      "downloads": "Downloads"
+    },
+    "overview": {
+      "eyebrow": "Event Overview",
+      "title": "GCAxTGS 2026",
+      "desc": "Gamescom Asia × Thailand Game Show 2026 is Southeast Asia's largest gaming exhibition, co-organized by Koelnmesse and True Digital Group. The event brings together game publishers, hardware brands, esports teams, and gaming communities under one roof at QSNCC, Bangkok.",
+      "descTh": "งานเกมส์ระดับนานาชาติที่ใหญ่ที่สุดในเอเชียตะวันออกเฉียงใต้",
+      "stats": {
+        "dates": "Oct 17–19, 2026",
+        "datesLabel": "Show Dates",
+        "venue": "QSNCC, Bangkok",
+        "venueLabel": "Venue",
+        "halls": "Hall 2–4, Ground Floor",
+        "hallsLabel": "Exhibition Halls",
+        "visitors": "~50,000",
+        "visitorsLabel": "Expected Visitors",
+        "exhibitors": "300+",
+        "exhibitorsLabel": "Exhibitors",
+        "sqm": "20,000 sqm",
+        "sqmLabel": "Total Exhibition Area"
+      }
+    },
+    "keyDates": {
+      "eyebrow": "Key Dates",
+      "title": "Important Timeline",
+      "subtitle": "Mark these dates in your calendar",
+      "items": {
+        "formDeadline": {
+          "date": "Sep 15",
+          "title": "Booth Design Submission (T2A)",
+          "desc": "Submit floor plan and 3D render to organiser",
+          "tag": "deadline"
+        },
+        "visaDeadline": {
+          "date": "Sep 20",
+          "title": "Visa Application (Form 21)",
+          "desc": "Required for all international exhibitors",
+          "tag": "deadline"
+        },
+        "electricalDeadline": {
+          "date": "Oct 1",
+          "title": "Electrical & Lighting Order (T5)",
+          "desc": "Submit power requirements to QSNCC",
+          "tag": "deadline"
+        },
+        "setup": {
+          "date": "Oct 15–16",
+          "title": "Build-up & Setup",
+          "desc": "08:00–24:00 both days. All booths must be completed by Oct 16, 24:00.",
+          "tag": "setup"
+        },
+        "show": {
+          "date": "Oct 17–19",
+          "title": "Exhibition Open",
+          "desc": "Exhibitor fast lane: 09:45. Public: 10:00–19:30 daily.",
+          "tag": "show"
+        },
+        "teardown": {
+          "date": "Oct 19",
+          "title": "Teardown",
+          "desc": "Starts at 20:00 after hall closes. All exhibits must be cleared by 24:00.",
+          "tag": "teardown"
+        }
+      }
+    },
+    "venue": {
+      "eyebrow": "Venue",
+      "title": "Queen Sirikit National Convention Center",
+      "abbr": "QSNCC",
+      "address": "60 Ratchadaphisek Rd, Khlong Toei, Bangkok 10110",
+      "halls": "Hall 2–4, Ground Floor (Zone G)",
+      "mapLink": "https://maps.google.com/?q=Queen+Sirikit+National+Convention+Center",
+      "mapLabel": "Open in Google Maps",
+      "details": {
+        "parking": {
+          "label": "Parking",
+          "value": "Available at QSNCC, basement B1–B3. Exhibitor rate applies."
+        },
+        "bts": {
+          "label": "BTS / MRT",
+          "value": "MRT Queen Sirikit National Convention Center (exit 1–3, direct connection)"
+        },
+        "loading": {
+          "label": "Loading Docks",
+          "value": "18 lanes for 6-wheel vehicles. See freight section for access schedule."
+        },
+        "elevator": {
+          "label": "Freight Elevator",
+          "value": "Capacity 5,000 kg. Available during setup and teardown only."
+        }
+      }
+    },
+    "organizers": {
+      "eyebrow": "Organizers",
+      "title": "Organized by",
+      "items": {
+        "koelnmesse": {
+          "name": "Koelnmesse GmbH",
+          "role": "International Co-organizer · Gamescom Asia License",
+          "desc": "World's leading trade fair company, host of Gamescom in Cologne. Provides brand, international exhibitor network, and event expertise."
+        },
+        "trueDigital": {
+          "name": "True Digital Group",
+          "role": "Local Organizer · Thailand Game Show License",
+          "desc": "Thailand's leading digital platform and event organizer. Manages local operations, marketing, and exhibitor services."
+        },
+        "blackdog": {
+          "name": "Blackdog Organizer",
+          "role": "Official Stand Contractor",
+          "desc": "Official booth construction contractor. Handles shell scheme, raw space build-out, and on-site technical support."
+        }
+      }
+    },
+    "downloads": {
+      "eyebrow": "Downloads",
+      "title": "Exhibitor Manual & Documents",
+      "subtitle": "All essential documents for your participation",
+      "items": {
+        "manual": {
+          "title": "Exhibitor Manual 2026",
+          "desc": "Complete guide covering all rules, schedules, forms, and contacts",
+          "size": "PDF · 8.4 MB",
+          "filename": "GCAxTGS-2026-Exhibitor-Manual.pdf"
+        },
+        "floorPlan": {
+          "title": "Exhibition Floor Plan",
+          "desc": "Hall 2–4 layout with booth locations and service points",
+          "size": "PDF · 2.1 MB",
+          "filename": "GCAxTGS-2026-Floor-Plan.pdf"
+        },
+        "formPack": {
+          "title": "Form Pack (All Forms)",
+          "desc": "M1–M7 and T1–T12 blank forms in one package",
+          "size": "PDF · 5.6 MB",
+          "filename": "GCAxTGS-2026-Form-Pack.pdf"
+        }
+      },
+      "downloadBtn": "Download",
+      "note": "Documents are updated periodically. Last updated: April 2026."
+    }
+  },
+  "rules": {
+    "breadcrumb": "Getting Started",
+    "title": "Rules & Regulations",
+    "subtitle": "Venue policies, conduct requirements, and compliance guidelines",
+    "sections": {
+      "general":    "General Rules",
+      "booth":      "Booth Rules",
+      "sound":      "Sound Policy",
+      "safety":     "Safety",
+      "contractor": "Contractors"
+    },
+    "general": {
+      "eyebrow": "General Rules",
+      "title": "Exhibitor Conduct",
+      "subtitle": "Applies to all exhibitors, staff, and contractors throughout the event",
+      "items": {
+        "badge":    { "label": "Badges Required",       "value": "All exhibitors and staff must wear their official event badge at all times inside the venue. Badges are non-transferable." },
+        "access":   { "label": "Access Hours",          "value": "Exhibitors may access the hall from 09:45 on show days. The hall is not accessible outside scheduled hours without prior approval." },
+        "conduct":  { "label": "Professional Conduct",  "value": "Exhibitors must maintain a professional and respectful environment. Harassment, offensive displays, or disruptive behaviour will result in removal." },
+        "smoking":  { "label": "No Smoking",            "value": "Smoking is strictly prohibited inside all venue buildings. Designated smoking areas are outside the main entrance only." },
+        "food":     { "label": "Food & Beverages",      "value": "F&B distribution from booths must be pre-approved. All F&B must be ordered through official venue services (Form T12)." },
+        "media":    { "label": "Photography & Media",   "value": "Commercial photography or filming must be pre-arranged with the organiser. Media passes are required for press activities." },
+        "children": { "label": "Minors",                "value": "Children under 15 must be accompanied by an adult at all times. No unsupervised minors in build-up or teardown areas." }
+      }
+    },
+    "booth": {
+      "eyebrow": "Booth Rules",
+      "title": "Booth & Display",
+      "subtitle": "Rules governing booth design, content, and operation",
+      "items": {
+        "boundaries": { "label": "Booth Boundaries",     "value": "All display materials, furniture, and activities must stay within contracted booth boundaries. No encroachment into aisles." },
+        "signage":    { "label": "Signage Height",       "value": "Shell scheme: max 2.5 m. Raw space: max 6 m with engineer cert. No signs may protrude beyond the contracted booth area." },
+        "projection": { "label": "Screen Projection",   "value": "Rear-projection systems must be contained within booth boundaries. Forward projection affecting neighbouring booths is prohibited." },
+        "demos":      { "label": "Live Demonstrations", "value": "Demonstrations attracting crowds must not block aisles. Crowd management is the exhibitor's responsibility." },
+        "giveaways":  { "label": "Giveaways & Sampling","value": "Distribution of samples or gifts must take place within the booth only. No distribution in aisles or common areas." },
+        "subletting": { "label": "Subletting",          "value": "Booth space may not be sublet, shared, or transferred to any third party without written organiser consent." }
+      }
+    },
+    "sound": {
+      "eyebrow": "Sound Policy",
+      "title": "Audio & Volume Control",
+      "subtitle": "Violations may result in immediate shutdown of your audio system",
+      "note": "Sound levels must not disturb neighbouring booths. QSNCC staff will issue one warning before mandating shutdown of non-compliant audio systems.",
+      "items": {
+        "level":    { "label": "Max Volume",        "value": "Audio must not exceed 85 dB at the booth boundary. Organisers may require volume reduction at any time." },
+        "nonSound": { "label": "Non-Sound Period",  "value": "October 17, 11:00–12:30 only. All audio must be OFF during the opening ceremony. Ceiling lights also off 100%." },
+        "music":    { "label": "Licensed Music",    "value": "All music played must be legally licensed. Exhibitors are responsible for any copyright or licensing fees." },
+        "screens":  { "label": "Video Screens",     "value": "Screens facing the aisle must display content appropriate for all public audiences at all times." },
+        "overtime": { "label": "Overtime Rate",     "value": "Extended access beyond scheduled hours: 5,000 THB per booth per hour, subject to availability." }
+      }
+    },
+    "safety": {
+      "eyebrow": "Safety",
+      "title": "Health & Safety",
+      "subtitle": "Non-compliance may result in immediate booth closure",
+      "items": {
+        "emergency":  { "label": "Emergency Exits",   "value": "Emergency exit routes must remain clear and unobstructed at all times. No structures or materials in evacuation corridors." },
+        "fire":       { "label": "Fire Safety",       "value": "All materials must be fire-retardant certified. No open flames, candles, or high-heat devices without prior written approval." },
+        "electrical": { "label": "Electrical Safety", "value": "No overloading of circuits. All electrical work by licensed electricians only. Faulty wiring will be shut down immediately." },
+        "flooring":   { "label": "Trip Hazards",      "value": "All cables must be covered or secured. Raised flooring must have ramped edges on all open sides." },
+        "weight":     { "label": "Floor Loading",     "value": "Maximum floor loading: 500 kg/m². Heavy equipment must be distributed. Check with QSNCC operations for exceptions." },
+        "firstaid":   { "label": "First Aid",         "value": "QSNCC medical team is on call during all show days. Medical emergency: 02-229-3001. Security: 02-229-3000." }
+      }
+    },
+    "contractor": {
+      "eyebrow": "Contractors",
+      "title": "Contractor Guidelines",
+      "subtitle": "All contractors must comply with venue and organiser policies",
+      "items": {
+        "registration": { "label": "Registration",       "value": "All contractors must register via Form T2 at least 2 weeks before build-up. Unregistered personnel will be denied entry." },
+        "insurance":    { "label": "Insurance",          "value": "Valid public liability insurance (min 5M THB) required. Certificate must be submitted with Form T2." },
+        "hours":        { "label": "Working Hours",      "value": "Contractors permitted during build-up (08:00–24:00) and teardown (from 20:00 on Oct 19) only." },
+        "conduct":      { "label": "Conduct",            "value": "All contractor staff must wear venue-issued contractor badges. Misconduct will result in immediate removal from site." },
+        "damage":       { "label": "Damage & Liability", "value": "Exhibitors are responsible for any damage caused by their contractors. Repair costs will be charged to the exhibitor." },
+        "inspection":   { "label": "Inspection Rights",  "value": "QSNCC and organiser staff reserve the right to inspect any booth structure during build-up at any time." }
+      }
+    }
+  },
+  "contactsList": {
+    "breadcrumb": "Getting Started",
+    "title": "List of Contacts",
+    "subtitle": "Key contacts for all operational matters during GCAxTGS 2026",
+    "sections": {
+      "emergency": "Emergency",
+      "key":       "Key Contacts",
+      "venue":     "Venue Services",
+      "organiser": "Organiser"
+    },
+    "emergency": {
+      "eyebrow": "On-site Emergency",
+      "title": "QSNCC Emergency Services",
+      "desc": "Available during all build-up, show, and teardown periods",
+      "security": { "label": "Security", "number": "02-229-3000" },
+      "medical":  { "label": "Medical",  "number": "02-229-3001" },
+      "fire":     { "label": "Fire",     "number": "02-229-3002" }
+    },
+    "key": {
+      "eyebrow": "Key Contacts",
+      "title": "Who to Call",
+      "subtitle": "Primary contacts for each area of responsibility",
+      "contacts": {
+        "parin":     { "initials": "PW", "name": "Parin Wilaijit",       "org": "True Digital Group", "role": "Exhibitor Facilitator",     "phone": "081-615-6965", "email": "parin.wil@truedigital.com",  "topics": "General enquiries, booth assignments, badges, forms" },
+        "wichittra": { "initials": "WP", "name": "Wichittra Phadungsri", "org": "Blackdog Organizer", "role": "Official Stand Contractor",  "phone": "089-691-0413", "email": "blackdog_tu@hotmail.com",    "topics": "Shell scheme, raw space build, furniture, graphics" },
+        "suttipat":  { "initials": "SN", "name": "Suttipat Neamkhuntod", "org": "QSNCC",              "role": "Event Services",            "phone": "02-229-3044",  "email": "suttipat.nea@qsncc.com",    "topics": "Electrical orders, freight elevator, venue operations" }
+      }
+    },
+    "venue": {
+      "eyebrow": "Venue Services",
+      "title": "QSNCC Departments",
+      "items": {
+        "operations": { "label": "Hall Operations",     "phone": "02-229-3044", "desc": "Loading docks, freight elevator, hall access" },
+        "electrical": { "label": "Electrical Services", "phone": "02-229-3050", "desc": "Power connections, Form T5 fulfilment" },
+        "security":   { "label": "Security Office",     "phone": "02-229-3000", "desc": "Badge issues, lost & found, venue security" },
+        "parking":    { "label": "Parking & Transport", "phone": "02-229-3060", "desc": "Exhibitor parking validation, vehicle permits" }
+      }
+    },
+    "organiser": {
+      "eyebrow": "Organiser",
+      "title": "Event Organiser",
+      "items": {
+        "koelnmesse":  { "label": "Koelnmesse (International)", "email": "asia@koelnmesse.de",      "desc": "International brand, Gamescom Asia licensing" },
+        "trueDigital": { "label": "True Digital Group",         "email": "tgs@truedigital.com",     "desc": "Local operations, marketing, exhibitor services" },
+        "blackdog":    { "label": "Blackdog Organizer",         "email": "blackdog_tu@hotmail.com", "desc": "Stand contractor, technical build queries" }
+      }
+    }
+  },
+  "rawSpace": {
+    "breadcrumb": "Booth Setup",
+    "title": "Raw Space Booth",
+    "subtitle": "Construction rules, certification, and technical requirements",
+    "sections": {
+      "overview":     "Overview",
+      "construction": "Construction Rules",
+      "engineer":     "Engineer Cert.",
+      "electrical":   "Electrical",
+      "contractor":   "Contractor Reg."
+    },
+    "overview": {
+      "eyebrow": "Raw Space",
+      "title": "Custom Booth Build",
+      "desc": "Raw space booths give exhibitors full creative freedom to design and construct a custom booth. All construction must comply with QSNCC venue regulations and GCAxTGS guidelines. An approved contractor and certified engineer are mandatory.",
+      "stats": {
+        "maxHeight":      "6 m",
+        "maxHeightLabel": "Max height",
+        "setback":        "0.5 m",
+        "setbackLabel":   "Setback from aisle",
+        "deadline":       "Sep 15",
+        "deadlineLabel":  "Design submission",
+        "cert":           "Required",
+        "certLabel":      "Engineer cert."
+      }
+    },
+    "construction": {
+      "eyebrow": "Construction Rules",
+      "title": "Build Requirements",
+      "subtitle": "All structural work must comply with QSNCC fire and safety standards",
+      "note": "Any booth exceeding 2.5 m in height requires submission of structural drawings signed by a licensed structural engineer before build-up begins.",
+      "rules": {
+        "height":    { "label": "Maximum Height",         "value": "6 metres from hall floor. Structures above 2.5 m require engineer sign-off." },
+        "setback":   { "label": "Aisle Setback",          "value": "Minimum 0.5 m setback from all aisle boundaries on open sides." },
+        "materials": { "label": "Permitted Materials",    "value": "All materials must be fire-retardant certified. No combustible cladding. Timber must be treated or covered." },
+        "flooring":  { "label": "Flooring",               "value": "Raised flooring allowed up to 15 cm. Must have ramp access on all open sides. No nailing or drilling into hall floor." },
+        "rigging":   { "label": "Overhead Rigging",       "value": "No rigging from hall ceiling. All suspended elements must be self-supporting within the booth footprint." },
+        "walls":     { "label": "Shared Walls",           "value": "Walls on neighbouring booth boundaries must be finished on both sides (white paint minimum)." },
+        "lighting":  { "label": "Internal Lighting",      "value": "LED only. No open flame, high-heat lamps, or exposed wiring. All wiring must be enclosed in conduit." },
+        "storage":   { "label": "Storage & Empties",      "value": "All empty crates and packing materials must be removed from the hall during show hours. On-site storage is not provided." }
+      }
+    },
+    "engineer": {
+      "eyebrow": "Engineer Certification",
+      "title": "Structural Certification",
+      "subtitle": "Mandatory for all raw space booths above 2.5 m",
+      "note": "Certification documents must be submitted to the organiser via Form T2A no later than September 15. Construction will not be permitted to begin without approval.",
+      "steps": {
+        "design":   { "step": "01", "title": "Submit Booth Design",          "desc": "Submit floor plan, elevation drawings, and 3D render via Form T2A by Sep 15." },
+        "approval": { "step": "02", "title": "Organiser Approval",           "desc": "Organiser reviews and approves design within 5 business days. Amendments may be requested." },
+        "cert":     { "step": "03", "title": "Engineer Signs Structural Doc","desc": "Licensed structural engineer must sign and stamp all structural drawings for booths above 2.5 m." },
+        "submit":   { "step": "04", "title": "Submit Cert to QSNCC",         "desc": "Certified drawings submitted to QSNCC venue operations team prior to build-up." },
+        "onsite":   { "step": "05", "title": "On-site Inspection",           "desc": "QSNCC reserves the right to inspect any booth during build-up. Non-compliant structures must be modified." }
+      }
+    },
+    "electrical": {
+      "eyebrow": "Electrical & Utilities",
+      "title": "Power & Lighting",
+      "subtitle": "All electrical work must be performed by a licensed electrician",
+      "note": "Electrical order Form T5 must be submitted to QSNCC by October 1. Late orders may not be fulfilled.",
+      "items": {
+        "supply":    { "label": "Power Supply",      "value": "220V / 50Hz single phase or 380V / 50Hz three phase. Voltage fluctuation ±10%." },
+        "order":     { "label": "Order Form",        "value": "Form T5 — Electricity & Lighting. Submit to QSNCC by October 1." },
+        "included":  { "label": "What's Included",   "value": "Power connection point only. Booth distributor, wiring, and fixtures are exhibitor's responsibility." },
+        "electrician":{ "label": "Licensed Electrician", "value": "All internal wiring must be installed by a licensed electrician. QSNCC can provide referrals." },
+        "generator": { "label": "Generators",        "value": "No private generators permitted inside the hall. Additional power must be ordered from QSNCC." },
+        "overnight": { "label": "Overnight Power",   "value": "Power is cut at 24:00 during build-up. Additional overnight power must be pre-arranged with QSNCC." }
+      }
+    },
+    "contractor": {
+      "eyebrow": "Contractor Registration",
+      "title": "Nominated Stand Contractor",
+      "subtitle": "All contractors must be registered before accessing the venue",
+      "note": "Exhibitors using their own nominated contractor must complete Form T2 and submit contractor details to the organiser at least 2 weeks before build-up.",
+      "items": {
+        "form":      { "label": "Registration Form",    "value": "Form T2 — Nominated Stand Contractor. Submit contractor name, license number, and insurance certificate." },
+        "insurance": { "label": "Insurance",            "value": "Contractor must hold valid public liability insurance (minimum 5M THB). Certificate required at registration." },
+        "badge":     { "label": "Contractor Badges",   "value": "All contractor staff must wear venue-issued contractor badges at all times during build-up and teardown." },
+        "blackdog":  { "label": "Official Contractor", "value": "Blackdog Organizer is the official stand contractor and can handle all raw space construction. Contact for quote." }
+      }
+    }
+  },
+  "shellScheme": {
+    "breadcrumb": "Booth Setup",
+    "title": "Shell Scheme Booth",
+    "subtitle": "Standard booth specifications, inclusions, and add-on services",
+    "sections": {
+      "included":  "What's Included",
+      "specs":     "Booth Specs",
+      "fascia":    "Fascia Name",
+      "addons":    "Add-on Services",
+      "rules":     "Rules & Notes"
+    },
+    "overview": {
+      "eyebrow": "Shell Scheme",
+      "title": "Standard Booth Package",
+      "desc": "Shell scheme booths are pre-built standard booths provided by the official contractor Blackdog Organizer. The package includes walls, flooring, fascia nameplate, basic furniture, and electrical connection.",
+      "stats": {
+        "height":      "2.5 m",
+        "heightLabel": "Wall height",
+        "walls":       "White",
+        "wallsLabel":  "Octanorm panels",
+        "power":       "500W",
+        "powerLabel":  "Included power",
+        "fascia":      "1 line",
+        "fasciaLabel": "Fascia nameplate"
+      }
+    },
+    "included": {
+      "eyebrow": "What's Included",
+      "title": "Standard Package",
+      "subtitle": "Every shell scheme booth includes the following at no extra charge",
+      "items": {
+        "walls":      { "label": "Octanorm Walls",       "value": "White Octanorm system walls, 2.5 m height. Three closed sides (open to aisle)." },
+        "carpet":     { "label": "Carpet Flooring",      "value": "Grey carpet tiles covering the full booth footprint." },
+        "fascia":     { "label": "Fascia Nameplate",     "value": "1-line company name on standard fascia board. Submitted via Form T1." },
+        "power":      { "label": "Electrical Supply",    "value": "500W power socket included. Additional power available via Form T5." },
+        "lighting":   { "label": "Overhead Lighting",    "value": "2× spotlight (100W equivalent) per 9 sqm. Additional spotlights available." },
+        "table":      { "label": "Table & Chairs",       "value": "1× folding table, 2× folding chairs included per booth unit." },
+        "bin":        { "label": "Waste Bin",            "value": "1× waste bin included." }
+      }
+    },
+    "specs": {
+      "eyebrow": "Booth Specs",
+      "title": "Dimensions & Structure",
+      "items": {
+        "wallHeight": { "label": "Wall Height",          "value": "2.5 m (standard Octanorm)" },
+        "wallFinish": { "label": "Wall Finish",          "value": "White melamine panel — not paintable" },
+        "maxDeco":    { "label": "Max Decoration Height","value": "2.5 m — nothing may protrude above wall top" },
+        "drilling":   { "label": "Drilling / Nailing",  "value": "Strictly prohibited on Octanorm panels. Use velcro or panel clips only." },
+        "openSides":  { "label": "Open Sides",          "value": "Aisle-facing sides are open. Additional walling can be ordered." },
+        "flooring":   { "label": "Flooring",             "value": "Carpet tiles. Raised flooring or other finishes not permitted without prior approval." }
+      }
+    },
+    "fascia": {
+      "eyebrow": "Fascia Nameplate",
+      "title": "Form T1 — Fascia Name",
+      "subtitle": "Submit your company name for the fascia board",
+      "desc": "The fascia board displays your company name at the top of the booth on aisle-facing sides. Submit the exact name via Form T1. Standard font and colour apply; custom fonts are not available.",
+      "rules": {
+        "length":   { "label": "Character Limit",    "value": "Maximum 30 characters per line including spaces." },
+        "language": { "label": "Language",           "value": "English or Thai. Mixed language on single line is permitted." },
+        "font":     { "label": "Font & Colour",      "value": "Standard venue font, white text on black background. Custom colours not available." },
+        "deadline": { "label": "Submission Deadline","value": "Form T1 must be submitted by September 30 to guarantee inclusion." },
+        "changes":  { "label": "Changes",            "value": "Changes after submission may incur a 500 THB revision fee and are subject to availability." }
+      }
+    },
+    "addons": {
+      "eyebrow": "Add-on Services",
+      "title": "Optional Upgrades",
+      "subtitle": "Order through Blackdog Organizer. Deadline: October 1.",
+      "items": {
+        "power":      { "label": "Additional Power",     "desc": "Extra sockets or 3-phase supply. Order via Form T5.",                   "form": "T5",  "color": "#c49228" },
+        "lighting":   { "label": "Extra Spotlights",     "desc": "Additional 100W LED spotlights. Mounting on Octanorm rail.",             "form": "T5",  "color": "#c49228" },
+        "furniture":  { "label": "Furniture Upgrade",    "desc": "Counters, display pedestals, lockable cabinets, bar stools.",            "form": "T3",  "color": "#00c4d4" },
+        "graphics":   { "label": "Panel Graphics",       "desc": "Printed graphic panels installed on Octanorm walls. Artwork required.",  "form": "T3",  "color": "#00c4d4" },
+        "av":         { "label": "AV Equipment",         "desc": "LCD screens, TV mounts, PA systems, and cabling.",                       "form": "T7",  "color": "#a78bfa" },
+        "walling":    { "label": "Extra Walling",        "desc": "Additional Octanorm panels to close open aisle sides.",                  "form": "T3",  "color": "#00c4d4" }
+      }
+    },
+    "rules": {
+      "eyebrow": "Rules & Notes",
+      "title": "Important Restrictions",
+      "items": {
+        "paint":    { "label": "No Painting",         "value": "Octanorm panels must not be painted or permanently marked. Damage will be charged to the exhibitor." },
+        "drilling": { "label": "No Drilling",         "value": "No drilling, nailing, screwing, or stapling into walls, floor, or ceiling. Velcro and panel clips only." },
+        "height":   { "label": "Height Limit",        "value": "Decorations, banners, and displays must not exceed 2.5 m or protrude above wall top." },
+        "storage":  { "label": "Storage",             "value": "No storage behind back wall or in aisles. All empty boxes must be removed from hall during show hours." },
+        "subletting":{ "label": "No Subletting",      "value": "Booth space may not be sublet, shared, or assigned to a third party without written organiser consent." }
+      }
+    }
+  },
+  "soundSchedule": {
+    "breadcrumb": "Schedule & Venue",
+    "title": "Sound Schedule",
+    "subtitle": "Volume rules, non-sound period, and audio compliance guidelines",
+    "sections": {
+      "overview":  "Overview",
+      "nonSound":  "Non-Sound Period",
+      "daily":     "Daily Sound Hours",
+      "rules":     "Sound Rules",
+      "overtime":  "Overtime & Penalties"
+    },
+    "overview": {
+      "eyebrow": "Sound Schedule",
+      "title": "Sound Schedule Overview",
+      "desc": "Sound is permitted during all show hours except the mandatory non-sound window on opening day (October 17, 11:00–12:30). All booths must comply with the 85 dB limit at the booth boundary.",
+      "stats": {
+        "nonSound":      "Oct 17 · 11:00–12:30",
+        "nonSoundLabel": "Non-Sound Period",
+        "maxVolume":     "85 dB",
+        "maxVolumeLabel":"Max Volume at Booth Boundary"
+      }
+    },
+    "nonSound": {
+      "eyebrow": "Non-Sound Period",
+      "title": "Non-Sound Period",
+      "subtitle": "October 17 (Opening day) only — 11:00 to 12:30",
+      "desc": "On October 17 only, all exhibitors must immediately silence all audio equipment for the duration of the opening ceremony. This includes all music, video sound, announcements, and demonstrations.",
+      "off": {
+        "title": "What must be turned off",
+        "audio":    "All audio playback and music",
+        "video":    "All video / screen sound",
+        "mic":      "Microphones and announcements",
+        "lighting": "Hall ceiling lights will be turned off 100%"
+      },
+      "reason": "This window coincides with the official GCAxTGS 2026 opening ceremony. Organiser and venue staff will enforce compliance. One warning will be issued — second violation results in audio shutdown for the remainder of the show day.",
+      "warning": "Failure to comply will result in immediate shutdown of your booth audio system by QSNCC staff."
+    },
+    "daily": {
+      "eyebrow": "Daily Sound Hours",
+      "title": "Daily Sound Hours",
+      "subtitle": "Sound permitted during all public show hours except the Oct 17 non-sound window",
+      "fastLane": "Exhibitor Access",
+      "publicOpen": "Public Hours Open",
+      "publicClose": "Public Hours Close",
+      "soundNote": "Sound Restriction",
+      "days": {
+        "oct17": { "date": "October 17", "day": "Friday",   "fastLane": "09:45", "open": "10:00", "close": "19:30", "note": "Non-Sound Period: 11:00–12:30 (Opening Ceremony)" },
+        "oct18": { "date": "October 18", "day": "Saturday", "fastLane": "09:45", "open": "10:00", "close": "19:30", "note": "" },
+        "oct19": { "date": "October 19", "day": "Sunday",   "fastLane": "09:45", "open": "10:00", "close": "19:30", "note": "" }
+      }
+    },
+    "rules": {
+      "eyebrow": "Sound Rules",
+      "title": "Sound Rules",
+      "subtitle": "Violations may result in immediate shutdown of your audio system",
+      "items": {
+        "volume":    { "label": "Maximum Volume",          "value": "85 dB measured at the booth boundary. QSNCC staff may check at any time." },
+        "music":     { "label": "Licensed Music Required", "value": "All music must be legally licensed. Exhibitors bear full responsibility for copyright and licensing fees." },
+        "subwoofer": { "label": "Subwoofer / Bass",        "value": "Low-frequency bass must not be audible or disruptive beyond adjacent booths." },
+        "screens":   { "label": "AV Screen Orientation",   "value": "Screens and speakers must face inward. Forward projection affecting neighbours is prohibited." },
+        "organiser": { "label": "Organiser Authority",     "value": "Organiser staff may order volume reduction or shutdown at any time without prior notice." }
+      }
+    },
+    "overtime": {
+      "eyebrow": "Overtime & Penalties",
+      "title": "Overtime & Penalties",
+      "subtitle": "Extended access and violation consequences",
+      "rate": {
+        "label": "Overtime Rate",
+        "value": "5,000 THB per booth per hour for access beyond scheduled show hours, subject to availability."
+      },
+      "violations": {
+        "title": "Violation Policy",
+        "first":  { "label": "First Violation",  "value": "Written warning issued by organiser or QSNCC staff." },
+        "second": { "label": "Second Violation", "value": "Immediate audio system shutdown for the remainder of the show day." },
+        "repeat": { "label": "Repeat Offence",   "value": "May result in permanent audio restriction for the duration of the event." }
+      }
+    }
+  },
+  "venueInfo": {
+    "breadcrumb": "Schedule & Venue",
+    "title": "Venue Information",
+    "subtitle": "QSNCC hall specs, loading, parking, and directions",
+    "sections": {
+      "overview": "Overview",
+      "halls":    "Exhibition Halls",
+      "loading":  "Loading & Freight",
+      "parking":  "Parking",
+      "access":   "Getting Here"
+    },
+    "overview": {
+      "eyebrow": "Venue",
+      "title": "Queen Sirikit National Convention Center",
+      "address": "60 Ratchadaphisek Rd, Khlong Toei, Bangkok 10110",
+      "addressTh": "ศูนย์การประชุมแห่งชาติสิริกิติ์ ถ.รัชดาภิเษก คลองเตย กรุงเทพฯ",
+      "mapLink": "https://maps.google.com/?q=Queen+Sirikit+National+Convention+Center",
+      "mapLabel": "Open in Google Maps",
+      "copyLabel": "Copy Thai address for taxi driver",
+      "stats": {
+        "halls":         "Hall 2–4, Ground Floor",
+        "hallsLabel":    "Exhibition Halls",
+        "area":          "20,000 sqm",
+        "areaLabel":     "Total Exhibition Area",
+        "loading":       "18 Lanes",
+        "loadingLabel":  "Loading Dock Lanes",
+        "elevator":      "5,000 kg",
+        "elevatorLabel": "Freight Elevator Capacity"
+      }
+    },
+    "halls": {
+      "eyebrow": "Exhibition Halls",
+      "title": "Exhibition Halls",
+      "subtitle": "Hall 2, Hall 3, and Hall 4 — Ground Floor (Zone G)",
+      "items": {
+        "ceiling":   { "label": "Ceiling Height",       "value": "Approximately 10 m clear height throughout Hall 2–4." },
+        "columns":   { "label": "Column-Free Spans",    "value": "All halls feature wide column-free spans for flexible booth layouts." },
+        "floor":     { "label": "Floor Loading",        "value": "500 kg/m² maximum floor loading across all hall zones." },
+        "power":     { "label": "Power Grid Points",    "value": "Electrical grid access points every 9 sqm throughout the halls." },
+        "connected": { "label": "Hall Connectivity",    "value": "Hall 2, 3, and 4 are fully interconnected on the ground floor." }
+      }
+    },
+    "loading": {
+      "eyebrow": "Loading & Freight",
+      "title": "Loading & Freight",
+      "subtitle": "Ground floor service road — 18 loading dock lanes",
+      "items": {
+        "lanes":     { "label": "Loading Dock Lanes",   "value": "18 lanes on the ground floor service road. Open during build-up 08:00–24:00." },
+        "vehicles":  { "label": "Vehicle Limit",        "value": "6-wheel vehicles maximum. No larger trucks permitted inside the service road area." },
+        "elevator":  { "label": "Freight Elevator",     "value": "5,000 kg capacity. Approximate dimensions: 4 m × 6 m. Schedule in advance with QSNCC." },
+        "showHours": { "label": "Show Hours Policy",    "value": "No private vehicles permitted during public show hours. Loading access during build-up and teardown only." }
+      }
+    },
+    "parking": {
+      "eyebrow": "Parking",
+      "title": "Parking",
+      "subtitle": "Basement B1–B3 parking available for exhibitors",
+      "items": {
+        "location": { "label": "Location",              "value": "Basement levels B1, B2, and B3 beneath the main QSNCC building." },
+        "entry":    { "label": "Entry Point",           "value": "Gate 1, Ratchadaphisek Road entrance. Follow venue signage." },
+        "rate":     { "label": "Exhibitor Rate",        "value": "Daily exhibitor parking rate available. Validate at the exhibitor registration desk." },
+        "height":   { "label": "Height Limit",          "value": "Maximum vehicle height 2.1 m for basement entry." }
+      }
+    },
+    "access": {
+      "eyebrow": "Getting Here",
+      "title": "Getting Here",
+      "subtitle": "MRT direct connection, taxi, and other transport options",
+      "mrt": {
+        "title": "MRT (Blue Line)",
+        "value": "Station: Queen Sirikit National Convention Center. Exits 1, 2, and 3 have direct covered walkway connection to the hall. This is the fastest and most reliable option."
+      },
+      "taxi": {
+        "title": "Taxi / Grab",
+        "value": "From Sukhumvit approx 15 min. From Suvarnabhumi Airport (BKK) approx 40 min. Use the Thai address below for taxi drivers."
+      },
+      "thaiAddress": {
+        "label": "Thai address for taxi driver",
+        "value": "ศูนย์การประชุมแห่งชาติสิริกิติ์ ถ.รัชดาภิเษก คลองเตย กรุงเทพฯ",
+        "copyBtn": "Copy"
+      }
+    }
+  },
+  "travel": {
+    "breadcrumb": "Schedule & Venue",
+    "title": "Travel & Accommodation",
+    "subtitle": "Getting to Bangkok, reaching QSNCC, and recommended hotels",
+    "sections": {
+      "transport": "Getting to Bangkok",
+      "toVenue":   "Getting to QSNCC",
+      "hotels":    "Recommended Hotels",
+      "tips":      "Travel Tips"
+    },
+    "transport": {
+      "eyebrow": "Getting to Bangkok",
+      "title": "Getting to Bangkok",
+      "subtitle": "Arriving from Suvarnabhumi or Don Mueang Airport",
+      "bkk": {
+        "title": "Suvarnabhumi Airport (BKK)",
+        "rail":  "Airport Rail Link to Makkasan then MRT transfer to Queen Sirikit NCC station. Total approx 60 min.",
+        "taxi":  "Taxi direct to QSNCC approx 45 min · estimated 350–500 THB depending on traffic."
+      },
+      "dmk": {
+        "title": "Don Mueang Airport (DMK)",
+        "taxi":  "Taxi to QSNCC approx 60 min depending on traffic. Grab app recommended for transparent pricing."
+      },
+      "grab": "Grab app (ride-hailing) is recommended for all local transport. Available from both airports and throughout the city."
+    },
+    "toVenue": {
+      "eyebrow": "Getting to QSNCC",
+      "title": "Getting to QSNCC",
+      "subtitle": "Multiple options for reaching the venue from around Bangkok",
+      "mrt": {
+        "title": "MRT Blue Line",
+        "value": "Station: Queen Sirikit National Convention Center. Exits 1–3 have a direct covered walkway into the hall. No weather exposure."
+      },
+      "bts": {
+        "title": "BTS Skytrain",
+        "value": "Transfer at Asok/Sukhumvit station to MRT Sukhumvit, then ride 2 stops to Queen Sirikit NCC."
+      },
+      "taxi": {
+        "title": "Taxi / Grab",
+        "value": "Recommended drop-off: Gate 1, Ratchadaphisek Rd entrance. Note: no ride-hailing pickup/drop-off at service areas during build-up days."
+      }
+    },
+    "hotels": {
+      "eyebrow": "Recommended Hotels",
+      "title": "Recommended Hotels",
+      "subtitle": "Nearby accommodation options — GCAxTGS does not have an official room block. Book directly with hotels.",
+      "bookBtn": "Search hotel",
+      "items": {
+        "novotel":    { "name": "Novotel Bangkok Fenix Silom",                         "stars": "4", "distance": "15 min by taxi",           "desc": "4-star business hotel near Silom / Chong Nonsi BTS" },
+        "marriottQP": { "name": "Marriott Marquis Queen's Park",                       "stars": "5", "distance": "5 min by taxi",            "desc": "Luxury 5-star hotel, close to Phrom Phong BTS" },
+        "jwMarriott": { "name": "JW Marriott Hotel Bangkok",                           "stars": "5", "distance": "10 min by taxi",           "desc": "Flagship luxury on Sukhumvit Soi 2" },
+        "grande":     { "name": "Grande Centre Point Hotel Terminal 21",               "stars": "4", "distance": "10 min walk via MRT",      "desc": "4-star with direct connection to Terminal 21 mall" },
+        "sukhumvit":  { "name": "Sukhumvit Park Bangkok Marriott Executive Apartments","stars": "4", "distance": "15 min by taxi",           "desc": "Serviced apartments — ideal for multi-night stays" }
+      }
+    },
+    "tips": {
+      "eyebrow": "Travel Tips",
+      "title": "Travel Tips",
+      "subtitle": "Practical advice for getting around Bangkok during the show",
+      "items": {
+        "transit":    { "label": "BTS / MRT Peak Hours",   "value": "Avoid 08:00–09:30 and 17:30–19:30. Trains are extremely crowded during rush hours." },
+        "grab":       { "label": "Grab App",               "value": "Grab is the most reliable ride-hailing option. Set pick-up/drop-off carefully around the venue." },
+        "weather":    { "label": "October Weather",        "value": "Hot and humid — 28–34°C. Occasional rain showers. Bring an umbrella or pack a light rain jacket." },
+        "currency":   { "label": "Currency",               "value": "Thai Baht (THB). ATMs widely available. Major cards accepted at hotels; some local vendors prefer cash." },
+        "tipping":    { "label": "Tipping",                "value": "Not mandatory in Thailand, but appreciated. 20–50 THB for taxis, 10% at restaurants if no service charge." },
+        "convenience":{ "label": "7-Eleven & Pharmacies",  "value": "7-Eleven and pharmacy outlets are available inside the QSNCC building." }
+      }
+    }
+  },
+  "freight": {
+    "breadcrumb": "Logistics & Freight",
+    "title": "Freight & Exhibits",
+    "subtitle": "Loading schedule, vehicle rules, move-in procedures, and prohibited items",
+    "badge": "Due soon",
+    "sections": {
+      "overview":   "Overview",
+      "schedule":   "Loading Schedule",
+      "vehicles":   "Vehicle Rules",
+      "elevator":   "Freight Elevator",
+      "moveIn":     "Move-in / Move-out",
+      "prohibited": "Prohibited Items"
+    },
+    "overview": {
+      "eyebrow": "Freight & Exhibits",
+      "title": "Logistics Overview",
+      "desc": "All exhibit and freight movement in and out of the hall must comply with QSNCC loading dock procedures. Read this section carefully before build-up — non-compliance may delay your setup.",
+      "stats": {
+        "lanes":        "18",
+        "lanesLabel":   "Loading lanes",
+        "maxVehicle":   "6-wheel",
+        "maxVehicleLabel": "Max vehicle size",
+        "elevator":     "5,000 kg",
+        "elevatorLabel":"Freight elevator",
+        "moveIn":       "Oct 16 only",
+        "moveInLabel":  "Exhibit move-in"
+      }
+    },
+    "schedule": {
+      "eyebrow": "Loading Schedule",
+      "title": "Access by Day",
+      "subtitle": "Loading dock access hours differ by phase — plan deliveries accordingly",
+      "days": {
+        "oct15": {
+          "date":    "Oct 15 (Wed)",
+          "tag":     "setup",
+          "hours":   "08:00 – 24:00",
+          "title":   "Build-up Day 1",
+          "detail":  "Booth construction materials only. No exhibit products or merchandise. 18 loading lanes open.",
+          "warning": "DO NOT bring exhibit products or merchandise on Oct 15."
+        },
+        "oct16": {
+          "date":    "Oct 16 (Thu)",
+          "tag":     "setup",
+          "hours":   "08:00 – 24:00",
+          "title":   "Build-up Day 2 — Exhibit Move-in",
+          "detail":  "All construction AND exhibit products allowed. Priority loading for final setup. All exhibits must be in place by 24:00.",
+          "warning": ""
+        },
+        "oct17": {
+          "date":    "Oct 17–19 (Show Days)",
+          "tag":     "show",
+          "hours":   "No dock access",
+          "title":   "Show Days",
+          "detail":  "Loading dock closed during public show hours. Emergency resupply only, subject to QSNCC operations approval. No vehicles permitted.",
+          "warning": ""
+        },
+        "oct19": {
+          "date":    "Oct 19 (Sun) from 20:00",
+          "tag":     "teardown",
+          "hours":   "20:00 – 24:00",
+          "title":   "Teardown & Move-out",
+          "detail":  "All 18 loading lanes reopen from 20:00. All exhibits and booth materials must be removed by 24:00.",
+          "warning": ""
+        }
+      }
+    },
+    "vehicles": {
+      "eyebrow": "Vehicle Rules",
+      "title": "Loading Dock & Vehicle Policy",
+      "subtitle": "Strictly enforced — non-compliant vehicles will be turned away",
+      "note": "All vehicles must check in at the loading dock registration point before entering. Unregistered vehicles will not be permitted.",
+      "items": {
+        "maxSize":   { "label": "Maximum Vehicle Size",    "value": "6-wheel trucks maximum (up to 10 tonnes GVW). Larger vehicles (18-wheel, articulated lorries) are NOT permitted inside the hall compound." },
+        "lanes":     { "label": "Loading Lanes",          "value": "18 lanes available on the ground floor service road. Lanes are first-come first-served. No overnight parking in loading bays." },
+        "height":    { "label": "Overhead Clearance",     "value": "Maximum vehicle height: 4.0 m for service road access. Check approach route — some overhead gantries may be lower." },
+        "checkin":   { "label": "Check-in Required",      "value": "All vehicles must register at the loading dock office (Ground Floor, Service Road Gate). Valid exhibitor or contractor badge required." },
+        "time":      { "label": "Max Dwell Time",         "value": "Maximum 2 hours per vehicle in loading bay. Vehicles left unattended beyond 2 hours may be removed at owner's cost." },
+        "hazmat":    { "label": "Hazardous Materials",    "value": "All hazardous goods (flammables, pressurised canisters, chemicals) require QSNCC Operations pre-approval. Submit manifest 7 days in advance." }
+      }
+    },
+    "elevator": {
+      "eyebrow": "Freight Elevator",
+      "title": "Freight Elevator Access",
+      "subtitle": "Pre-booking required during peak build-up hours",
+      "note": "The freight elevator is available during build-up (Oct 15–16) and teardown (Oct 19 from 20:00) only. It is NOT available during show hours.",
+      "items": {
+        "capacity":  { "label": "Weight Capacity",        "value": "5,000 kg per load. Do not overload — QSNCC staff will refuse entry if weight limit is exceeded." },
+        "dimensions":{ "label": "Car Dimensions",         "value": "Approximately 4.0 m (W) × 6.0 m (D) × 3.5 m (H). Verify with QSNCC operations for oversized items." },
+        "booking":   { "label": "How to Book",            "value": "Contact QSNCC Hall Operations (Suttipat Neamkhuntod, 02-229-3044) to schedule elevator slots during build-up. Walk-in use during off-peak hours only." },
+        "priority":  { "label": "Priority",              "value": "Booths with heavy machinery or oversized exhibits should book Oct 15 slots. Oct 16 morning is peak — expect queues." },
+        "staff":     { "label": "Operator",              "value": "QSNCC elevator operator must be present at all times. Exhibitors may not operate the elevator controls." }
+      }
+    },
+    "moveIn": {
+      "eyebrow": "Move-in & Move-out",
+      "title": "Exhibit Handling Rules",
+      "subtitle": "Critical dates and procedures for all exhibit items",
+      "rules": {
+        "oct15ban":  { "label": "Oct 15 — No Exhibits",   "value": "Exhibit products, merchandise, and display items must NOT be brought in on Oct 15. Construction materials only." },
+        "oct16ok":   { "label": "Oct 16 — Move-in Day",   "value": "All exhibit items, products, and merchandise must be brought in and set up on Oct 16. This is the only permitted move-in day." },
+        "deadline":  { "label": "Setup Deadline",         "value": "All exhibits must be fully set up and ready by Oct 16 at 24:00. No construction or major changes permitted after this time." },
+        "insurance": { "label": "Exhibit Insurance",      "value": "Exhibitors are strongly advised to insure all exhibit items. GCAxTGS and QSNCC accept no liability for lost, stolen, or damaged exhibits." },
+        "teardown":  { "label": "Teardown — Oct 19",      "value": "Move-out begins at 20:00 on Oct 19. All items must be cleared by 24:00. Items left after 24:00 will be disposed at exhibitor's expense." },
+        "labels":    { "label": "Freight Labels",         "value": "All crates and packages should be clearly labelled with: Exhibitor name, booth number, hall, and contact phone number." }
+      }
+    },
+    "prohibited": {
+      "eyebrow": "Prohibited Items",
+      "title": "What Cannot Be Brought In",
+      "subtitle": "Items found in violation will be removed immediately by QSNCC security",
+      "items": {
+        "weapons":   { "label": "Weapons & Replicas",     "value": "No real or replica firearms, bladed weapons, or any item that could be used as a weapon, unless pre-approved for display with deactivation certificate." },
+        "flammable": { "label": "Flammable Liquids",      "value": "No petrol, solvents, flammable sprays, or any Class 3 flammable liquids. Exceptions for small quantities of cleaning fluids (pre-approval required)." },
+        "gas":       { "label": "Pressurised Gas",        "value": "No LPG, compressed gas cylinders, or pressurised canisters of any kind without explicit QSNCC Operations written approval." },
+        "animals":   { "label": "Live Animals",           "value": "No live animals of any kind without QSNCC management written approval and relevant government permits." },
+        "drones":    { "label": "Drones & UAVs",          "value": "No unmanned aerial vehicles inside the hall or on the venue premises without prior written approval from both QSNCC and the organiser." },
+        "food":      { "label": "Outside F&B for Resale", "value": "No outside food or beverages for sale or public distribution without organiser approval and valid F&B permit. Order through Form T12." }
+      }
+    }
+  },
+  "exhibitionSchedule": {
+    "breadcrumb": "Schedule & Venue",
+    "title": "Exhibition Schedule",
+    "titleTh": "กำหนดการจัดแสดงสินค้า",
+    "subtitle": "Complete schedule for build-up, show days, and teardown",
+    "onThisPage": "On this page",
+    "sections": {
+      "overview":   "Overview",
+      "buildup":    "Build-up",
+      "showDays":   "Show Days",
+      "teardown":   "Teardown",
+      "soundPolicy":"Sound Policy"
+    },
+    "overview": {
+      "eyebrow": "At a Glance",
+      "title": "5-Day Event Overview",
+      "subtitle": "October 15–19, 2026 · Queen Sirikit National Convention Center",
+      "days": {
+        "oct15": { "date": "Oct 15", "day": "Wed", "label": "Build-up Day 1", "tag": "setup",    "hours": "08:00–24:00" },
+        "oct16": { "date": "Oct 16", "day": "Thu", "label": "Build-up Day 2", "tag": "setup",    "hours": "08:00–24:00" },
+        "oct17": { "date": "Oct 17", "day": "Fri", "label": "Show Day 1",     "tag": "show",     "hours": "10:00–19:30" },
+        "oct18": { "date": "Oct 18", "day": "Sat", "label": "Show Day 2",     "tag": "show",     "hours": "10:00–19:30" },
+        "oct19": { "date": "Oct 19", "day": "Sun", "label": "Show Day 3 + Teardown", "tag": "both", "hours": "10:00–19:30" }
+      }
+    },
+    "buildup": {
+      "eyebrow": "Build-up Period",
+      "title": "Setup & Installation",
+      "subtitle": "October 15–16, 2026",
+      "note": "All booth construction must be completed by Oct 16 at 24:00. Exhibitors who fail to complete by this deadline will be unable to make further changes.",
+      "rows": {
+        "hours":    { "label": "Working Hours",        "value": "08:00 – 24:00 (both days)" },
+        "access":   { "label": "Exhibitor Access",     "value": "Exhibitor badge required. Fast lane available from 08:00." },
+        "vehicles": { "label": "Loading Vehicles",     "value": "18 lanes available for 6-wheel vehicles maximum. No larger trucks permitted inside the hall." },
+        "exhibits": { "label": "Exhibit Move-In",      "value": "DO NOT move exhibits on Oct 15. Move-in of exhibits and products is allowed Oct 16 only." },
+        "elevator": { "label": "Freight Elevator",     "value": "Capacity 5,000 kg. Schedule with QSNCC operations team in advance." },
+        "contractor":{ "label": "Contractor Access",   "value": "All contractors must register at main entrance. Unregistered contractors will be denied access." }
+      }
+    },
+    "showDays": {
+      "eyebrow": "Show Days",
+      "title": "October 17–19, 2026",
+      "subtitle": "Public hours 10:00–19:30 daily",
+      "fastLane": "Exhibitor fast lane opens",
+      "publicOpen": "Public doors open",
+      "publicClose": "Public doors close",
+      "days": {
+        "day1": {
+          "date":       "October 17",
+          "day":        "Friday",
+          "label":      "Show Day 1 — Opening",
+          "tag":        "show",
+          "fastLane":   "09:45",
+          "open":       "10:00",
+          "close":      "19:30",
+          "special":    "Non-Sound Period: 11:00–12:30 · Ceiling lights off 100% during opening ceremony"
+        },
+        "day2": {
+          "date":       "October 18",
+          "day":        "Saturday",
+          "label":      "Show Day 2",
+          "tag":        "show",
+          "fastLane":   "09:45",
+          "open":       "10:00",
+          "close":      "19:30",
+          "special":    ""
+        },
+        "day3": {
+          "date":       "October 19",
+          "day":        "Sunday",
+          "label":      "Show Day 3 — Closing",
+          "tag":        "closing",
+          "fastLane":   "09:45",
+          "open":       "10:00",
+          "close":      "19:30",
+          "special":    "Closing ceremony: 18:00–19:00 · Hall closes: 19:00"
+        }
+      }
+    },
+    "teardown": {
+      "eyebrow": "Teardown",
+      "title": "Dismantle & Move-Out",
+      "subtitle": "October 19, 2026 — starts 20:00",
+      "note": "All exhibitors must clear their booths and remove all exhibits by 24:00 on October 19. Items left after the deadline will be disposed of at the exhibitor's expense.",
+      "rows": {
+        "hallClose":   { "label": "Hall Closes",       "value": "19:00 — public exit begins" },
+        "teardownStart":{ "label": "Teardown Start",   "value": "20:00 — all exhibitors may begin dismantling" },
+        "deadline":    { "label": "Hard Deadline",     "value": "24:00 Oct 19 — all items must be removed" },
+        "vehicles":    { "label": "Loading Vehicles",  "value": "18 lanes available. Same vehicle restrictions as build-up." },
+        "contractor":  { "label": "Contractor Access", "value": "Contractors permitted from 20:00 with valid badge." }
+      }
+    },
+    "soundPolicy": {
+      "eyebrow": "Sound Policy",
+      "title": "Non-Sound Period",
+      "subtitle": "Opening ceremony, October 17 only",
+      "desc": "On October 17 (opening day) only, all exhibitors are required to turn off all audio, music, and video sound from 11:00 to 12:30. This window coincides with the official opening ceremony.",
+      "rules": {
+        "sound":    { "label": "All audio & music",    "value": "Must be OFF during 11:00–12:30" },
+        "lighting": { "label": "Ceiling lighting",     "value": "Hall ceiling lights will be turned off 100%" },
+        "overtime": { "label": "Overtime rate",        "value": "5,000 THB per booth per hour for extended access beyond scheduled hours" },
+        "applies":  { "label": "Applies to",           "value": "October 17 only — Show Day 2 and 3 are not affected" }
+      },
+      "warning": "Failure to comply with the non-sound period will result in immediate shutdown of your booth's audio system by venue staff."
+    },
+    "tags": {
+      "setup":   "Build-up",
+      "show":    "Show day",
+      "closing": "Closing",
+      "both":    "Show + Teardown"
+    }
+  },
+  "visa": {
+    "breadcrumb": "Admin & Forms",
+    "title": "Visa Application",
+    "subtitle": "Invitation letter service for international exhibitors requiring a Thai visa",
+    "sections": {
+      "overview":    "Overview",
+      "eligibility": "Eligibility",
+      "documents":   "Required Documents",
+      "process":     "How to Apply",
+      "timeline":    "Timeline",
+      "notes":       "Important Notes"
+    },
+    "overview": {
+      "eyebrow": "Visa Support",
+      "title": "Official Invitation Letters",
+      "desc": "GCA x TGS 2026 provides official invitation letters to support visa applications for international exhibitors. Letters are issued by the organiser and may be submitted to the Royal Thai Embassy or consulate in your country.",
+      "stats": {
+        "deadline":      "Aug 31",
+        "deadlineLabel": "Request deadline",
+        "processing":    "5–7 days",
+        "processingLabel": "Processing time",
+        "format":        "PDF + Hard copy",
+        "formatLabel":   "Letter format",
+        "language":      "EN / TH",
+        "languageLabel": "Languages"
+      }
+    },
+    "eligibility": {
+      "eyebrow": "Who Needs a Visa",
+      "title": "Eligibility for Invitation Letter",
+      "subtitle": "Only official exhibiting companies and their registered staff are eligible",
+      "items": {
+        "who":      { "label": "Who Is Eligible",       "value": "Registered exhibitors and staff listed in the official exhibitor registration form. Sub-let booth holders and unofficial participants are not eligible." },
+        "countries":{ "label": "Visa-Exempt Nationals", "value": "Nationals of countries with visa-exempt agreements with Thailand do not require an invitation letter. Check the Royal Thai Embassy website for your country's status." },
+        "staff":    { "label": "Staff Per Company",     "value": "Up to 5 invitation letters per exhibiting company for booth staff. Additional letters for senior executives may be requested with justification." },
+        "buyers":   { "label": "Buyers & Visitors",    "value": "Individual visitor visa applications are not handled by the organiser. Buyers and trade visitors must apply independently." }
+      }
+    },
+    "documents": {
+      "eyebrow": "Required Documents",
+      "title": "What to Submit",
+      "subtitle": "Incomplete submissions will be returned and may miss the deadline",
+      "items": {
+        "passport":     { "label": "Passport Copy",           "value": "Clear copy of bio-data page. Passport must be valid for at least 6 months beyond the event end date (April 19, 2027 minimum)." },
+        "registration": { "label": "Exhibitor Confirmation",  "value": "Copy of your signed booth contract or official exhibitor confirmation letter from the organiser." },
+        "form":         { "label": "Visa Request Form V01",   "value": "Completed Form V01 — Visa Invitation Request. Download from the portal under Forms & Downloads. One form per person." },
+        "photo":        { "label": "Passport Photo",          "value": "One digital passport-size photo (white background, JPG, min. 300 dpi, taken within 6 months)." },
+        "company":      { "label": "Company Letter",          "value": "Official letter on company letterhead stating the applicant's name, title, purpose of visit, and authorised signature with company stamp." }
+      }
+    },
+    "process": {
+      "eyebrow": "Application Steps",
+      "title": "How to Apply",
+      "subtitle": "Submit all documents together — partial submissions will not be processed",
+      "steps": {
+        "s1": { "num": "01", "title": "Download Form V01",    "desc": "Download the Visa Invitation Request form (Form V01) from the Forms & Downloads section of this portal." },
+        "s2": { "num": "02", "title": "Prepare Documents",    "desc": "Gather all required documents: passport copy, photo, company letter, and exhibitor confirmation. Ensure the passport is valid until at least April 2027." },
+        "s3": { "num": "03", "title": "Submit to Organiser",  "desc": "Email the complete package to visa@gcatgs.com with subject line: [VISA] Company Name – Applicant Name." },
+        "s4": { "num": "04", "title": "Processing",           "desc": "The organiser reviews and issues the letter within 5–7 business days. Urgent requests (2 business days) are available for 500 THB per letter." },
+        "s5": { "num": "05", "title": "Receive & Apply",      "desc": "You will receive a PDF invitation letter by email. Present this to the Royal Thai Embassy in your country along with your visa application." }
+      }
+    },
+    "timeline": {
+      "eyebrow": "Deadlines",
+      "title": "Request Timeline",
+      "subtitle": "Factor in embassy processing time — allow at least 4 weeks before your travel date",
+      "items": {
+        "open":     { "label": "Requests Open",     "value": "June 1, 2026 — Visa invitation letter requests open for all confirmed exhibitors." },
+        "deadline": { "label": "Standard Deadline", "value": "August 31, 2026 — Last date for standard requests (5–7 business days processing)." },
+        "late":     { "label": "Late Deadline",     "value": "September 15, 2026 — Last date for urgent requests only (2 business days, 500 THB fee per letter)." },
+        "cutoff":   { "label": "Hard Cutoff",       "value": "No requests accepted after September 15, 2026. Allow sufficient embassy processing time — we cannot guarantee visa approval." }
+      }
+    },
+    "notes": {
+      "eyebrow": "Important",
+      "title": "Please Note",
+      "items": {
+        "noGuarantee":  { "label": "No Visa Guarantee",       "value": "An invitation letter supports your application but does not guarantee visa approval. The final decision rests with Thai immigration authorities." },
+        "cost":         { "label": "Letter Fee",              "value": "Standard invitation letters are free of charge. Urgent letters (within 2 business days) are 500 THB per letter." },
+        "responsibility":{ "label": "Applicant's Responsibility","value": "Applicants are responsible for meeting all visa requirements set by the Thai embassy in their country, including fees, interviews, and additional documents." },
+        "contact":      { "label": "Visa Contact",            "value": "visa@gcatgs.com · Tel. 02-229-3041 (Mon–Fri, 09:00–17:00)" }
+      }
+    }
+  },
+  "billing": {
+    "breadcrumb": "Admin & Forms",
+    "title": "Billing Setup",
+    "subtitle": "Invoice details, payment methods, and billing contact for all exhibitor fees",
+    "sections": {
+      "overview":     "Overview",
+      "invoiceInfo":  "Invoice Details",
+      "payment":      "Payment Methods",
+      "tax":          "Tax & VAT",
+      "schedule":     "Payment Schedule",
+      "contact":      "Billing Contact"
+    },
+    "overview": {
+      "eyebrow": "Billing",
+      "title": "Exhibitor Billing Overview",
+      "desc": "All exhibitor fees — booth rental, service orders, electricity, and contractor charges — are billed by the organiser (Gamer Company Association). Invoices are issued in Thai Baht. International exhibitors may pay by wire transfer.",
+      "stats": {
+        "currency":      "THB",
+        "currencyLabel": "Billing currency",
+        "deposit":       "50%",
+        "depositLabel":  "Deposit due on signing",
+        "final":         "Sep 15",
+        "finalLabel":    "Balance due date",
+        "vat":           "7%",
+        "vatLabel":      "VAT rate"
+      }
+    },
+    "invoiceInfo": {
+      "eyebrow": "Invoice Details",
+      "title": "Your Billing Information",
+      "subtitle": "Submit accurate details to avoid invoice corrections and payment delays",
+      "items": {
+        "name":    { "label": "Company Name (Legal)", "value": "Invoices will be issued in the legal company name as registered. Ensure the name matches your company registration document exactly." },
+        "address": { "label": "Registered Address",  "value": "Provide your full legal registered address including country. This will appear on the official tax invoice." },
+        "taxId":   { "label": "Tax ID / VAT Number", "value": "Thai companies must provide a 13-digit Tax Identification Number. Foreign companies provide their local VAT registration equivalent." },
+        "contact": { "label": "Billing Contact",     "value": "Provide the name, email, and phone of the person responsible for approving and settling invoices." },
+        "form":    { "label": "Submit Via Form B01",  "value": "Complete Form B01 — Billing Information Form and send to billing@gcatgs.com. Required before any invoice can be issued." }
+      }
+    },
+    "payment": {
+      "eyebrow": "Payment Methods",
+      "title": "Accepted Payment Methods",
+      "subtitle": "All payments must reference your exhibitor ID and invoice number",
+      "items": {
+        "transfer": { "label": "Bank Transfer (Thailand)", "value": "Kasikorn Bank (KBank) · Account: Gamer Company Association · Acct No: 001-1-23456-7 · Branch: Silom · Attach transfer slip to billing@gcatgs.com." },
+        "wire":     { "label": "International Wire Transfer","value": "SWIFT code and full banking details are shown on the invoice. International wire transfer fees are borne by the sender." },
+        "cheque":   { "label": "Cheque",                   "value": "Payable to \"Gamer Company Association\". Delivered to the organiser's office at least 3 business days before the due date. Post-dated cheques are not accepted." },
+        "cash":     { "label": "Cash (On-site Only)",       "value": "Cash payments in THB accepted at the organiser's on-site office (QSNCC Hall Office) during build-up and show days. Receipt issued." }
+      }
+    },
+    "tax": {
+      "eyebrow": "Tax & VAT",
+      "title": "Tax Information",
+      "subtitle": "Thailand VAT and withholding tax rules apply to all transactions",
+      "note": "Exhibitors registered for VAT in Thailand may request a full tax invoice. Ensure your 13-digit Tax ID is submitted on Form B01 before August 1, 2026.",
+      "items": {
+        "vat":     { "label": "VAT (7%)",               "value": "All fees are subject to 7% VAT, shown separately on the invoice. A full tax invoice is issued to registered VAT entities upon request." },
+        "wht":     { "label": "Withholding Tax (3%)",   "value": "Thai juristic persons may withhold 3% at source for service fees. Submit the withholding tax certificate (Sor Sor 3) to the organiser as proof of payment." },
+        "foreign": { "label": "Foreign Companies",      "value": "International exhibitors are not subject to Thai withholding tax. 7% VAT still applies to all service fees settled in Thailand." },
+        "receipt": { "label": "Receipts & Tax Invoices","value": "Official receipts are issued for all payments. Full tax invoices (ใบกำกับภาษีเต็มรูปแบบ) are issued within 5 business days of receipt." }
+      }
+    },
+    "schedule": {
+      "eyebrow": "Payment Schedule",
+      "title": "When Payments Are Due",
+      "subtitle": "Late payments may result in booth cancellation or service suspension",
+      "items": {
+        "deposit":  { "label": "50% Deposit — Upon Signing",       "value": "50% of total booth fee is due within 15 days of signing the booth contract. Booth assignment is held until deposit is received." },
+        "second":   { "label": "Balance — September 15, 2026",     "value": "Remaining 50% of booth fees plus all confirmed service orders are due by September 15, 2026." },
+        "services": { "label": "Service Orders — October 10, 2026","value": "All additional service orders (electricity, furniture, AV, WiFi) must be settled by October 10, 2026." },
+        "onsite":   { "label": "On-site Orders",                   "value": "Orders placed during build-up are payable on-site. Cash or bank transfer only. On-site orders carry a 20% surcharge." },
+        "late":     { "label": "Late Payment Fee",                 "value": "Invoices unpaid after the due date are subject to a 1.5% per month late fee. The organiser reserves the right to suspend services for delinquent accounts." }
+      }
+    },
+    "contact": {
+      "eyebrow": "Billing Contact",
+      "title": "Finance & Billing Team",
+      "subtitle": "For invoice queries, payment confirmations, and billing corrections",
+      "items": {
+        "finance":   { "label": "Finance Manager",           "value": "Kanlaya Wongprasert · kanlaya@gcatgs.com · Tel. 02-229-3042 (Mon–Fri, 09:00–17:00)" },
+        "billing":   { "label": "Billing Enquiries",         "value": "billing@gcatgs.com — Include your exhibitor ID and invoice number in all correspondence." },
+        "emergency": { "label": "On-site Billing (Oct 15–19)","value": "Billing office at QSNCC Hall Office, Ground Floor. Open 08:00–18:00 during build-up and show days." },
+        "form":      { "label": "Form B01",                  "value": "Download Form B01 — Billing Information Form from the portal. Submit before August 1, 2026 for timely invoice processing." }
+      }
+    }
+  },
+  "login": {
+    "title": "Exhibitor Login",
+    "subtitle": "Access your GCAxTGS 2026 exhibitor portal",
+    "email": "Email address",
+    "password": "Password",
+    "submit": "Sign in",
+    "submitting": "Signing in…",
+    "forgotPassword": "Forgot password?",
+    "b2bZone": "B2B Business Zone",
+    "b2cZone": "B2C Entertainment Zone",
+    "poweredBy": "Powered by"
+  }
+}

@@ -1,26 +1,190 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-body);
   --font-mono: var(--font-geist-mono);
+
+  /* Brand */
+  --color-primary: #e4173f;
+  --color-primary-dark: #b01030;
+  --color-primary-glow: rgba(228, 23, 63, 0.18);
+  --color-accent-cyan: #00c4d4;
+  --color-accent-yellow: #c8d600;
+  --color-accent-blue: #1f3c88;
+  --color-accent-gold: #c49228;
+  --color-ok: #22c55e;
+
+  /* Surfaces */
+  --color-bg-base: #09090f;
+  --color-bg-surface: #0f0f1a;
+  --color-bg-card: #141420;
+  --color-bg-elevated: #1c1c2c;
+
+  /* Text */
+  --color-text-primary: #eeeef5;
+  --color-text-secondary: rgba(238, 238, 245, 0.65);
+  --color-text-muted: rgba(238, 238, 245, 0.38);
+  --color-text-dim: rgba(238, 238, 245, 0.2);
+
+  /* shadcn tokens */
+  --color-background: #09090f;
+  --color-foreground: #eeeef5;
+  --color-card: #141420;
+  --color-card-foreground: #eeeef5;
+  --color-popover: #141420;
+  --color-popover-foreground: #eeeef5;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #1c1c2c;
+  --color-secondary-foreground: rgba(238, 238, 245, 0.65);
+  --color-muted: #1c1c2c;
+  --color-muted-foreground: rgba(238, 238, 245, 0.45);
+  --color-accent: #1c1c2c;
+  --color-accent-foreground: #eeeef5;
+  --color-destructive: #e4173f;
+  --color-border: rgba(255, 255, 255, 0.07);
+  --color-input: rgba(255, 255, 255, 0.07);
+  --color-ring: #e4173f;
+  --color-chart-1: #e4173f;
+  --color-chart-2: #00c4d4;
+  --color-chart-3: #c8d600;
+  --color-chart-4: #c49228;
+  --color-chart-5: #1f3c88;
+  --color-sidebar: #0f0f1a;
+  --color-sidebar-foreground: #eeeef5;
+  --color-sidebar-primary: #e4173f;
+  --color-sidebar-primary-foreground: #ffffff;
+  --color-sidebar-accent: #1c1c2c;
+  --color-sidebar-accent-foreground: #eeeef5;
+  --color-sidebar-border: rgba(255, 255, 255, 0.07);
+  --color-sidebar-ring: #e4173f;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --radius: 0.625rem;
+  --nav-h: 64px;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #09090f;
+  color: #eeeef5;
+  font-size: 15px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
+
+/* Subtle scanline texture for gamer feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    0deg, transparent, transparent 2px,
+    rgba(0, 0, 0, 0.04) 2px, rgba(0, 0, 0, 0.04) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Grid background utility */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Primary glow */
+.glow-primary {
+  box-shadow: 0 0 24px rgba(228, 23, 63, 0.3), 0 0 60px rgba(228, 23, 63, 0.1);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+.animate-blink { animation: blink 2s ease-in-out infinite; }
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0f0f1a; }
+::-webkit-scrollbar-thumb { background: rgba(228, 23, 63, 0.4); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(228, 23, 63, 0.7); }
+
+/* ─── Scroll Reveal System ─────────────────────────────────── */
+:root {
+  --reveal-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --reveal-duration: 0.65s;
+}
+
+[data-reveal] {
+  will-change: opacity, transform;
+  transition:
+    opacity var(--reveal-duration) var(--reveal-ease),
+    transform var(--reveal-duration) var(--reveal-ease);
+}
+
+/* Initial hidden states */
+[data-reveal="up"]    { opacity: 0; transform: translateY(32px); }
+[data-reveal="left"]  { opacity: 0; transform: translateX(-32px); }
+[data-reveal="right"] { opacity: 0; transform: translateX(32px); }
+[data-reveal="scale"] { opacity: 0; transform: scale(0.93) translateY(16px); }
+[data-reveal="fade"]  { opacity: 0; }
+
+/* Visible state — added by JS when element enters viewport */
+[data-visible="true"][data-reveal] {
+  opacity: 1;
+  transform: none;
+}
+
+/* Hero entrance (plays once on mount, no scroll needed) */
+@keyframes hero-enter {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: none; }
+}
+.hero-enter {
+  animation: hero-enter 0.7s var(--reveal-ease) both;
+}
+.hero-enter-delay-1 { animation-delay: 0.08s; }
+.hero-enter-delay-2 { animation-delay: 0.16s; }
+.hero-enter-delay-3 { animation-delay: 0.26s; }
+.hero-enter-delay-4 { animation-delay: 0.38s; }
+
+/* Accent line sweep (section eyebrows) */
+@keyframes line-grow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+[data-visible="true"] .line-grow {
+  animation: line-grow 0.4s var(--reveal-ease) 0.1s both;
+  transform-origin: left;
+}
+
+/* Red underline sweep on hover cards */
+@keyframes underline-sweep {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+/* Countdown bar count-up pulse */
+@keyframes num-pop {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+.num-pop { animation: num-pop 0.5s var(--reveal-ease) both; }
