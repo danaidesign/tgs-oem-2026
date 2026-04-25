@@ -116,8 +116,12 @@ export function Topbar() {
   };
 
   const switchLocale = (next: string) => {
+    const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
     const segs = window.location.pathname.split("/");
-    segs[1] = next;
+    // With a basePath the repo name sits at segs[1], locale at segs[2]
+    // Without a basePath locale is at segs[1]
+    const localeIdx = base ? 2 : 1;
+    segs[localeIdx] = next;
     window.location.href = segs.join("/") || "/";
   };
 
